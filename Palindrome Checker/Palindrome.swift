@@ -9,10 +9,14 @@
 import Foundation
 
 func isPalindrome(_ argument: String) -> Bool {
-    var yesItIs = false
-    let reversed = String(argument.reversed())
-    if argument == reversed {
-        yesItIs = true
+    //remove spaces
+    let letters = "abcdefghijklmnopqrstuvwxyz"
+    var strippedString = ""
+    for character in argument.lowercased() {
+        if letters.contains(character) {
+            strippedString.append(character)
+        }
     }
-    return(yesItIs)
+    return strippedString == String(strippedString.reversed())
 }
+
