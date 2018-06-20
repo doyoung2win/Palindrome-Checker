@@ -27,6 +27,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5jk-Jp-EHM">
                                 <rect key="frame" x="145" y="334" width="85" height="30"/>
                                 <state key="normal" title="Palindrome?"/>
+                                <connections>
+                                    <action selector="palindromeButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yK1-zc-pI8"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rD5-wc-kqY">
                                 <rect key="frame" x="166" y="221" width="42" height="21"/>
@@ -47,6 +50,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="label" destination="rD5-wc-kqY" id="fbV-7Y-ied"/>
+                        <outlet property="textField" destination="GPA-fZ-1J8" id="u1c-yD-EWJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

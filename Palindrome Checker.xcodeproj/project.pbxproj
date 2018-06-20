@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C22DD40920D9E9DC00FEB27E /* Palindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22DD40820D9E9DC00FEB27E /* Palindrome.swift */; };
 		C25F13A120D9E61100DD14BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25F13A020D9E61100DD14BB /* AppDelegate.swift */; };
 		C25F13A320D9E61100DD14BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25F13A220D9E61100DD14BB /* ViewController.swift */; };
 		C25F13A620D9E61100DD14BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C25F13A420D9E61100DD14BB /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C22DD40820D9E9DC00FEB27E /* Palindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Palindrome.swift; sourceTree = "<group>"; };
 		C25F139D20D9E61100DD14BB /* Palindrome Checker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Palindrome Checker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C25F13A020D9E61100DD14BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C25F13A220D9E61100DD14BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				C25F13A020D9E61100DD14BB /* AppDelegate.swift */,
 				C25F13A220D9E61100DD14BB /* ViewController.swift */,
+				C22DD40820D9E9DC00FEB27E /* Palindrome.swift */,
 				C25F13A420D9E61100DD14BB /* Main.storyboard */,
 				C25F13A720D9E61300DD14BB /* Assets.xcassets */,
 				C25F13A920D9E61300DD14BB /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C25F13A320D9E61100DD14BB /* ViewController.swift in Sources */,
+				C22DD40920D9E9DC00FEB27E /* Palindrome.swift in Sources */,
 				C25F13A120D9E61100DD14BB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
