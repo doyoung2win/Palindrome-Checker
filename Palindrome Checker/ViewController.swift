@@ -18,16 +18,19 @@ class ViewController: UIViewController {
         }
         
         if isPalindrome(userInput) {
-            label.text = "Yes"
+            label.text = "Yes, and he climbed his way\nback to top frag"
         } else {
-            label.text = "No"
+            label.text = "No, and Yushe still bottom frag"
         }
     }
     
     
     @IBOutlet weak var label: UILabel!
-    
 
+    @IBAction func resetYoshi(_ sender: Any) {
+        label.text = "Yooshang bottom fraggin' again"
+    }
+    
     
 }
 
